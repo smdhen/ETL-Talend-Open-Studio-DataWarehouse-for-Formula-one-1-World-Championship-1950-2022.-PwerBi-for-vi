@@ -15,7 +15,7 @@
 
 ### Project Overview
 
-This project involves the creation of a Data Warehouse using [Talend Open Studio](https://www.talend.com/products/talend-open-studio/)  and the visualization of data through graphs using [Tableau](https://www.tableau.com/). 
+This project involves the creation of a Data Warehouse using [Talend Open Studio](https://www.talend.com/products/talend-open-studio/)  and the visualization of data through graphs using [Power Bi](https://learn.microsoft.com/fr-fr/power-bi/). 
 
 ### Data description 
 
@@ -33,7 +33,7 @@ Here is the [Link](https://www.kaggle.com/datasets/rohanrao/formula-1-world-cham
 
 1. Excel : Data Cleaning 
 2. Talend : Decision-Making Data Processing
-3. Tableu Creating Reorts
+3. Power-bi Creating Reorts
 4. sqlServer :  Data base --> (star schema)
 
 ### Datawarehouse design:
@@ -78,14 +78,26 @@ Having the same raceId, idDate, and circuitId is not problematic because all dri
 Here are some visualization graphs created using Tableau.
 
 1. The Formula 1 car manufacturers based on the cumulative sum of points earned by their cars. This provides an overview of the performance of each manufacturer in terms of points.
+
 2. The second graph can displays the cumulative points of each driver over time, allowing for an understanding of the drivers' performance trends. By analyzing this graph, a manufacturer can select drivers whose points consistently improve over the years.
-![Screenshot from 2024-02-22 18-59-55](https://github.com/smdhen/Formula-1-World-Championship-Data-Warehouse-1950---2022-/assets/96498289/6bc0e049-0f13-46db-bc5f-131d2976eca1)
 
 3. The next graph illustrates the rankings of drivers from different manufacturer teams over time. This helps identify the performance of drivers within their respective teams
-![Screenshot from 2024-02-22 19-05-01](https://github.com/smdhen/Formula-1-World-Championship-Data-Warehouse-1950---2022-/assets/96498289/c8e3151e-33bc-455f-b0b3-ed06dcf30c00)
 
 4. Lastly, the graph shows the number of laps completed by drivers, categorized by circuit, along with their fastest lap speeds over time. This information allows manufacturers to identify the circuits that best suit each driver based on their number of laps and speed.
-![Screenshot from 2024-02-22 19-04-31](https://github.com/smdhen/Formula-1-World-Championship-Data-Warehouse-1950---2022-/assets/96498289/cb94c68e-f41d-48d2-84e7-e67a99ba735d)
+
+Here is pictures of the Dynamic dashboard created using Power bi desktop :
+
+![Capture](https://github.com/smdhen/Formula-one-1-World-Championship-DataWarehouse-1950-2022./assets/96498289/1546b0d5-d98a-4e1a-b596-a0482da69107)
+
+![Capture1](https://github.com/smdhen/Formula-one-1-World-Championship-DataWarehouse-1950-2022./assets/96498289/618b5ec8-a233-4c15-af6b-7df532969e29)
+
+![Capture3](https://github.com/smdhen/Formula-one-1-World-Championship-DataWarehouse-1950-2022./assets/96498289/a570b3e5-d6e8-45cf-84dd-11a1b9979041)
+
+![Capture4](https://github.com/smdhen/Formula-one-1-World-Championship-DataWarehouse-1950-2022./assets/96498289/7b8936ad-6bad-4dce-ab89-0ede0f6f6aa0)
+
+![Capture5](https://github.com/smdhen/Formula-one-1-World-Championship-DataWarehouse-1950-2022./assets/96498289/b63de786-6710-4755-a313-02b4e2fe8830)
+
 
 ### Summary
+
 This project combines data analysis and visualization techniques to gain insights into the performance of car manufacturers, drivers, and their compatibility with specific circuits.
