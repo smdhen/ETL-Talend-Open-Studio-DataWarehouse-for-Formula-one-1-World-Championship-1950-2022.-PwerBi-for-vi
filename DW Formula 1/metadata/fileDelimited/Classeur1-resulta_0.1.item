@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_gVNtIMJgEeyIBafff5Jn0w" name="Classeur1-resulta" dataPackage="_gVNtIcJgEeyIBafff5Jn0w" Server="Localhost 127.0.0.1" FilePath="C:/DWPROJECT/Classeur1-resulta.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_gVNtIcJgEeyIBafff5Jn0w" name="default" dataManager="_gVNtIMJgEeyIBafff5Jn0w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_gVNtIsJgEeyIBafff5Jn0w" id="_61MoYMJfEeyIBafff5Jn0w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtI8JgEeyIBafff5Jn0w" label="resultId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtJMJgEeyIBafff5Jn0w" label="raceId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtJcJgEeyIBafff5Jn0w" label="driverId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtJsJgEeyIBafff5Jn0w" label="constructorId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtJ8JgEeyIBafff5Jn0w" label="number" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtKMJgEeyIBafff5Jn0w" label="grid" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtKcJgEeyIBafff5Jn0w" label="position" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtKsJgEeyIBafff5Jn0w" label="positionText" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtK8JgEeyIBafff5Jn0w" label="positionOrder" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtLMJgEeyIBafff5Jn0w" label="points" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtLcJgEeyIBafff5Jn0w" label="laps" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtLsJgEeyIBafff5Jn0w" label="time" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtL8JgEeyIBafff5Jn0w" label="milliseconds" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtMMJgEeyIBafff5Jn0w" label="fastestLap" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtMcJgEeyIBafff5Jn0w" label="rank" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtMsJgEeyIBafff5Jn0w" label="fastestLapTime" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtM8JgEeyIBafff5Jn0w" label="fastestLapSpeed" length="7" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gVNtNMJgEeyIBafff5Jn0w" label="statusId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

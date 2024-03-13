@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LpeLUMK3EeyIBafff5Jn0w" name="dwRacee" dataPackage="_LpeLUcK3EeyIBafff5Jn0w" Server="Localhost 127.0.0.1" FilePath="C:/DWPROJECT/DW/entropote de donnees/races_table.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LpeLUcK3EeyIBafff5Jn0w" name="default" dataManager="_LpeLUMK3EeyIBafff5Jn0w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LpeLUsK3EeyIBafff5Jn0w" id="_BDedAMK3EeyIBafff5Jn0w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LpeLU8K3EeyIBafff5Jn0w" label="raceId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LpeLVMK3EeyIBafff5Jn0w" label="round" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LpeLVcK3EeyIBafff5Jn0w" label="name" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
