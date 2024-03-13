@@ -9,7 +9,7 @@
 - [Datawarehouse design](#datawarehouse-design)
 - [Feeding the dimensions tables](#feeding-the-dimensions-tables)
 - [Feeding the Fact tables](#feeding-the-fact-tables)
-- [Results](#results)
+- [Fact table Results](#Fact-table-Results)
 - [Dashboard analysis ideas](#dashboard-analysis-ideas)
 - [Summary](#summary)
 
@@ -66,7 +66,7 @@ The star schema is illustrated in the following figure.
 ### Feeding the Fact tables:
 ![Screenshot from 2024-02-22 18-31-20](https://github.com/smdhen/Formula-1-World-Championship-Data-Warehouse-1950---2022-/assets/96498289/4b68608c-d423-4ae2-aeb3-d79e05f8fdae)
 
-### Results
+### Fact table Results
 20 first lines : 
 
 ![Screenshot from 2024-02-22 18-38-29](https://github.com/smdhen/Formula-1-World-Championship-Data-Warehouse-1950---2022-/assets/96498289/0a72cd2d-8475-4235-b42b-850038d0b534)
@@ -99,5 +99,4 @@ Here is pictures of the Dynamic dashboard created using Power bi desktop :
 
 
 ### Summary
-
-This project combines data analysis and visualization techniques to gain insights into the performance of car manufacturers, drivers, and their compatibility with specific circuits.
+In this project, Talend Open Studio was utilized to establish a data warehouse for the Formula 1 World Championship. Subsequently, the Power BI tool was employed for analysis and visualization to uncover insights on the performance of car manufacturers, drivers, and their suitability with particular circuits. 🏎️📊 
